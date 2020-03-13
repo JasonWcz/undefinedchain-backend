@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.undefinedchain.project.dao.CertificationinfoMapper">
+  <resultMap id="BaseResultMap" type="com.undefinedchain.project.model.Certificationinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="eid" jdbcType="INTEGER" property="eid" />
+    <result column="certification_info" jdbcType="VARCHAR" property="certificationInfo" />
+    <result column="certificate_type" jdbcType="INTEGER" property="certificateType" />
+  </resultMap>
+</mapper>

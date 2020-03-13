@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.undefinedchain.project.dao.FinancebillStateDimMapper">
+  <resultMap id="BaseResultMap" type="com.undefinedchain.project.model.FinancebillStateDim">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="fstateid" jdbcType="INTEGER" property="fstateid" />
+    <result column="fstate_info" jdbcType="VARCHAR" property="fstateInfo" />
+  </resultMap>
+</mapper>

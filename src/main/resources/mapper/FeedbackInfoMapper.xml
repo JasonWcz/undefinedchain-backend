@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.undefinedchain.project.dao.FeedbackInfoMapper">
+  <resultMap id="BaseResultMap" type="com.undefinedchain.project.model.FeedbackInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="fbid" jdbcType="INTEGER" property="fbid" />
+    <result column="cid" jdbcType="VARCHAR" property="cid" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="feed_info" jdbcType="LONGVARCHAR" property="feedInfo" />
+  </resultMap>
+</mapper>

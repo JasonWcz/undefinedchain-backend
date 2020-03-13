@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.undefinedchain.project.dao.EnterpriseMapper">
+  <resultMap id="BaseResultMap" type="com.undefinedchain.project.model.Enterprise">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="eid" jdbcType="INTEGER" property="eid" />
+    <result column="ename" jdbcType="VARCHAR" property="ename" />
+    <result column="etype" jdbcType="INTEGER" property="etype" />
+    <result column="uname" jdbcType="VARCHAR" property="uname" />
+    <result column="uidnumber" jdbcType="VARCHAR" property="uidnumber" />
+    <result column="lname" jdbcType="VARCHAR" property="lname" />
+    <result column="lidnumber" jdbcType="VARCHAR" property="lidnumber" />
+    <result column="cocertificate_type" jdbcType="INTEGER" property="cocertificateType" />
+    <result column="certificate_code" jdbcType="VARCHAR" property="certificateCode" />
+    <result column="bankaccount_name" jdbcType="VARCHAR" property="bankaccountName" />
+    <result column="bankaccount_id" jdbcType="VARCHAR" property="bankaccountId" />
+    <result column="bankname" jdbcType="VARCHAR" property="bankname" />
+    <result column="subbank" jdbcType="VARCHAR" property="subbank" />
+  </resultMap>
+</mapper>
