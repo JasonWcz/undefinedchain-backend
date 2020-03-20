@@ -72,6 +72,46 @@ public class Enterprise {
      * 所属支行
      */
     private String subbank;
+    /**
+     * 地址
+     */
+    private  String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getAdminphone() {
+        return adminphone;
+    }
+
+    public void setAdminphone(String adminphone) {
+        this.adminphone = adminphone;
+    }
+
+    public Integer getEstate() {
+        return estate;
+    }
+
+    public void setEstate(Integer estate) {
+        this.estate = estate;
+    }
+
+    /**
+     * 管理员密码
+     */
+    private  String adminphone;
+    /**
+     * 企业审核状态
+     */
+    private  Integer estate;
+
+    public Enterprise() {
+    }
 
     /**
      * 获取企业id

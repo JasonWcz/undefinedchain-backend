@@ -1,8 +1,6 @@
 package com.undefinedchain.project.controller;
-import com.alibaba.fastjson.JSONObject;
 import com.auth0.jwt.JWT;
 import com.undefinedchain.project.annotation.UserLoginToken;
-import com.undefinedchain.project.core.JwtUtil;
 import com.undefinedchain.project.core.Result;
 import com.undefinedchain.project.core.ResultGenerator;
 import com.undefinedchain.project.core.UserContext;
@@ -18,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import java.util.Map;
 
