@@ -8,4 +8,5 @@ import com.undefinedchain.project.core.Service;
  */
 public interface UserService extends Service<User> {
 
+    User findUserByPhone(String Phone);//通过用户phone查找
 }

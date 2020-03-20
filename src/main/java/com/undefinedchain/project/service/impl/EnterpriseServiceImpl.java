@@ -19,4 +19,9 @@ public class EnterpriseServiceImpl extends AbstractService<Enterprise> implement
     @Resource
     private EnterpriseMapper enterpriseMapper;
 
+    @Override
+    public Enterprise findEnterByUname(String uname) {
+        Enterprise enterprise = enterpriseMapper.findEnterByUname(uname);
+        return  enterprise;
+    }
 }

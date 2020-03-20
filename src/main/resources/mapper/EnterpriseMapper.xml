@@ -19,4 +19,7 @@
     <result column="bankname" jdbcType="VARCHAR" property="bankname" />
     <result column="subbank" jdbcType="VARCHAR" property="subbank" />
   </resultMap>
+  <select id="findEnterByUname" resultMap="BaseResultMap">
+    SELECT * FROM enterprise WHERE uname= #{uname}
+  </select>
 </mapper>
