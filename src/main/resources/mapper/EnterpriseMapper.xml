@@ -18,5 +18,11 @@
     <result column="bankaccount_id" jdbcType="VARCHAR" property="bankaccountId" />
     <result column="bankname" jdbcType="VARCHAR" property="bankname" />
     <result column="subbank" jdbcType="VARCHAR" property="subbank" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="adminphone" jdbcType="VARCHAR" property="adminphone" />
+    <result column="estate" jdbcType="INTEGER" property="estate" />
   </resultMap>
+  <select id="findEnterByUname" resultMap="BaseResultMap">
+    SELECT * FROM enterprise WHERE uname= #{uname}
+  </select>
 </mapper>
